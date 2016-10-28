@@ -13,7 +13,7 @@ def solve_maze(maze, row, col, rows, cols):
     maze[row][col] = 'V'
 
     solve_maze(maze, row, col+1, rows, cols)
-    down = solve_maze(maze, row+1, col , rows, cols)
+    solve_maze(maze, row + 1, col, rows, cols)
 
     maze[row][col] = '1'
     return False
