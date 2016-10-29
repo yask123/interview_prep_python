@@ -30,7 +30,7 @@ class Trie:
 
 		for each_char in word:
 			if current.get_link(each_char) == None:
-				return False
+got 				return False
 			current = current.get_link(each_char)
 		if current.is_end == True:
 			return True
