@@ -1,8 +1,9 @@
 class Node:
 	def __init__(self, data=None):
-		self.data = data
+		self.key = data
 		self.prev = None
 		self.next = None
+		self.val = None
 
 
 class Deque:

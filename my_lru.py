@@ -1,21 +1,28 @@
-class My_LRU:
-	def __init__(self, capacity):
-		self.queue = []
-		self.max_capacity = capacity
-		self.current_capacity =0 
+import deque
 
-	def insert(self, key, val):
-		if self.current_capacity < max_capacity:
-			self.current_capacity += 1
-		else:
-			self.remove_least_recent()
 
-		self.queue.append((key,val))
+class LRU:
+	def __init__(self, capacity=10):
+		self.lru_deque = deque.Deque()
+		self.MAX_CAPACITY = capacity
+		self.current_capacity = 0
+		self.node_map = {}
 
 	def get(self, key):
-		for i in range(len(self.queue)):
-			if self.queue[i][0] == key:
-				removed_item = self.queue.pop(i)
-				insert_
+		if key in self.node_map:
+			return self.node_map[key]
+		else:
+			return -1
 
-				return self.queue[i][1]
+	def set(self, key, val):
+		if key in self.node_map:
+			current_node = self.node_map[key]
+			current_node.prev.next = current_node.next
+			current_node.val = val
+			self.lru_deque.append_left(current_node)
+		else:
+			if self.current_capacity == self.MAX_CAPACITY:
+				self.lru_deque.pop()
+
+			current_node = self.lru_deque.append_left(key, val)
+			self.node_map[key] = current_node
