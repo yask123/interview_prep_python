@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/check_tree_balance.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bfss.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bulb.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/check_balanced_tree.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3_sum.py" afterPath="$PROJECT_DIR$/3_sum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4sum.py" afterPath="$PROJECT_DIR$/4sum.py" />
     </list>
     <ignored path="intv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +24,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="check_tree_balance.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="check_tree_balance.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/check_tree_balance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="432">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3_sum.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_sum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4sum.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4sum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -84,6 +102,8 @@
         <option value="$PROJECT_DIR$/bulb.py" />
         <option value="$PROJECT_DIR$/check_balanced_tree.py" />
         <option value="$PROJECT_DIR$/check_tree_balance.py" />
+        <option value="$PROJECT_DIR$/3_sum.py" />
+        <option value="$PROJECT_DIR$/4sum.py" />
       </list>
     </option>
   </component>
@@ -146,24 +166,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Python.check_tree_balance">
-    <configuration default="false" name="print_all_subsets" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="intv" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/print_all_subsets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.3_sum">
     <configuration default="false" name="remove_consec_duplicates" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,6 +231,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="intv" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/check_tree_balance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="3_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="intv" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -367,19 +387,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.print_all_subsets" />
-      <item index="1" class="java.lang.String" itemvalue="Python.remove_consec_duplicates" />
-      <item index="2" class="java.lang.String" itemvalue="Python.deque" />
-      <item index="3" class="java.lang.String" itemvalue="Python.My_Trie" />
-      <item index="4" class="java.lang.String" itemvalue="Python.check_tree_balance" />
+      <item index="0" class="java.lang.String" itemvalue="Python.remove_consec_duplicates" />
+      <item index="1" class="java.lang.String" itemvalue="Python.deque" />
+      <item index="2" class="java.lang.String" itemvalue="Python.My_Trie" />
+      <item index="3" class="java.lang.String" itemvalue="Python.check_tree_balance" />
+      <item index="4" class="java.lang.String" itemvalue="Python.3_sum" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.check_tree_balance" />
-        <item index="1" class="java.lang.String" itemvalue="Python.My_Trie" />
-        <item index="2" class="java.lang.String" itemvalue="Python.deque" />
-        <item index="3" class="java.lang.String" itemvalue="Python.remove_consec_duplicates" />
-        <item index="4" class="java.lang.String" itemvalue="Python.print_all_subsets" />
+        <item index="0" class="java.lang.String" itemvalue="Python.3_sum" />
+        <item index="1" class="java.lang.String" itemvalue="Python.check_tree_balance" />
+        <item index="2" class="java.lang.String" itemvalue="Python.My_Trie" />
+        <item index="3" class="java.lang.String" itemvalue="Python.deque" />
+        <item index="4" class="java.lang.String" itemvalue="Python.remove_consec_duplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477730348771</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Is tree balanced ? In  O(n) time">
+      <created>1477731130241</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1477731130241</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -458,7 +485,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2391094" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2391094" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.49791667" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -488,7 +515,8 @@
     <MESSAGE value="added readme" />
     <MESSAGE value="added deque O(1) for all operations" />
     <MESSAGE value="Trie with insertion, searching, prefix search for words (supports a-z)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trie with insertion, searching, prefix search for words (supports a-z)" />
+    <MESSAGE value="Is tree balanced ? In  O(n) time" />
+    <option name="LAST_COMMIT_MESSAGE" value="Is tree balanced ? In  O(n) time" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -508,20 +536,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zero_at_end.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/missing_no.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -831,8 +845,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/check_tree_balance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="432">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding />
         </state>
       </provider>
