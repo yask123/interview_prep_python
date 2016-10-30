@@ -6,8 +6,7 @@ def get_predicessor(root, val, predicessor):
     if root == None:
         return None
     if val > root.value:
-
-        return get_predicessor(root.left,val, predicessor)
+        return get_predicessor(root.left, val, predicessor)
 
     if root.value == val:
         if root.right != None:
@@ -16,7 +15,7 @@ def get_predicessor(root, val, predicessor):
         return predicessor[0]
     else:
         predicessor[0] = root.value
-        return get_predicessor(root.right,val, predicessor)
+        return get_predicessor(root.right, val, predicessor)
 
 def get_min_node(root):
     current = root
