@@ -1,38 +1,45 @@
 from collections import deque
 
-def level_by_level(root):
-    current_level = deque([root])
-    next_level = deque()
-    result = []
-    level = 0
-    while len(current_level) > 0:
-        popped_node = deque.pop()
-        result[level].append(popped_node)
 
-        if popped_node.right:
-            next_level.appendleft(popped_node.right)
-        if popped_node.left:
-            next_level.appendleft(popped_node.left)
-        if len(current_level) == 0:
-            current_level.extendleft(next_level)
-            level += 1
-            result.append([])
-    return result
+# Level order traversal for a tree
 
 
+def breadth_first_search(source, destination):
+	node_deqeue = deque([(source, 0)])
 
-def level_by_depth(root, current_level, result):
-    if root == None:
-        return
-    if root.left:
-        if len(result)-1 <= current_level+1:
-            result.append([])
-    level_by_depth(root.left, current_level+1, result)
+	while len(node_deqeue):
+		popped_node, level = deque.popleft()
+		s
 
-    #Visit
-    result[current_level].append(root)
+		if popped_node.left:
+			if popped_node.left.val == destination:
+				return level + 1
 
-    if root.right:
-        if len(result)-1 <= current_level+1:
-            result.append([])
-    level_by_depth(root.right, current_level+1, result)
+			node_deqeue.append(popped_node.left, level + 1)
+
+		if popped_node.right:
+			if popped_node.right.val == destination:
+				return level + 1
+
+			node_deqeue.append(popped_node.right, level + 1)
+
+
+# Level order traversal for a graph
+
+def Graph_BFS(source, destination):
+	visited = set([source])
+
+	node_deque = deque([source, 0])
+
+	while (len(node_deque) > 0):
+		popped_node, level = node_deque.popleft()
+
+		if popped_node.left and popped_node.left not in visited:
+			if popped_node.left.val == destination:
+				return level + 1
+			node_deque.append(popped_node.left, level + 1)
+
+		if popped_node.right and popped_node.right not in visited:
+			if popped_node.right.val == destination:
+				return level + 1
+			node_deque.append(popped_node.right, level + 1)
