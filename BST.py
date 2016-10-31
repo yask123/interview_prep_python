@@ -29,6 +29,38 @@ class BST:
 				self._insert_helper(current_node.left, key, val)
 
 	def delete(self, key):
+		self._delete(key, self.root)
+
+	def _delete(self, key, root):
+		if root == None:
+			return
+
+		if key > root.val:
+			root.right = self._delete(key, root.right)
+
+		elif key < root.val:
+			root.left = self._delete(key, root.left)
+		else:
+			if root.left == None:
+				right_child = root.right
+				root = None
+				return right_child
+			elif root.right == None:
+				left_child = root.left
+				root = None
+				return left_child
+			else:
+				inorder_successor = self.get_min_value(root.right)
+				root.val = inorder_successor.val
+				self.right = self._delete(inorder_successor)
+
+		return root
+
+
+
+
+
+
 
 	def print_tree(self):
 		self.print_tree_inorder(self.root)
