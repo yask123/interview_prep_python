@@ -7,5 +7,3 @@ def get_fino():
 
 a = get_fino()
 
-for i in a:
-    print i

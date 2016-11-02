@@ -28,3 +28,16 @@ class LRU:
 
 			current_node = self.lru_deque.append_left(key, val)
 			self.node_map[key] = current_node
+
+
+def hello():
+	test.h = 'bye'
+
+
+def test():
+	test.h = 'hey'
+
+	print test.h
+
+
+test()
