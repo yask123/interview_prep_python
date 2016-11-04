@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pre_order_interative.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/merge_intervals.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="intv.iws" />
@@ -23,31 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tree2list.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tree2list.py">
+      <file leaf-file-name="merge_intervals.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/merge_intervals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inorder_traversal_iterativelt.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inorder_traversal_iterativelt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pre_order_interative.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pre_order_interative.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="22" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="22" />
+            <state relative-caret-position="578">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,7 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mystack.py" />
         <option value="$PROJECT_DIR$/drone.py" />
         <option value="$PROJECT_DIR$/partitionll.py" />
         <option value="$PROJECT_DIR$/bfss.py" />
@@ -119,6 +98,7 @@
         <option value="$PROJECT_DIR$/max_diameter.py" />
         <option value="$PROJECT_DIR$/tree2list.py" />
         <option value="$PROJECT_DIR$/pre_order_interative.py" />
+        <option value="$PROJECT_DIR$/merge_intervals.py" />
       </list>
     </option>
   </component>
@@ -182,24 +162,7 @@
     <property name="FullScreen" value="true" />
     <property name="SearchEverywhereHistoryKey" value="heap&#9;null&#9;null&#10;bal&#9;FILE&#9;file:///Users/yask/Documents/intv/balanced_or_not.py" />
   </component>
-  <component name="RunManager" selected="Python.pre_order_interative">
-    <configuration default="false" name="instance_variable_python" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="intv" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/instance_variable_python.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.merge_intervals">
     <configuration default="false" name="merge_sorted_arrays" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,6 +227,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="intv" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pre_order_interative.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="merge_intervals" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="intv" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/merge_intervals.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -403,19 +383,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.instance_variable_python" />
-      <item index="1" class="java.lang.String" itemvalue="Python.merge_sorted_arrays" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tree2list" />
-      <item index="3" class="java.lang.String" itemvalue="Python.inorder_traversal_iterativelt" />
-      <item index="4" class="java.lang.String" itemvalue="Python.pre_order_interative" />
+      <item index="0" class="java.lang.String" itemvalue="Python.merge_sorted_arrays" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tree2list" />
+      <item index="2" class="java.lang.String" itemvalue="Python.inorder_traversal_iterativelt" />
+      <item index="3" class="java.lang.String" itemvalue="Python.pre_order_interative" />
+      <item index="4" class="java.lang.String" itemvalue="Python.merge_intervals" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.pre_order_interative" />
-        <item index="1" class="java.lang.String" itemvalue="Python.inorder_traversal_iterativelt" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tree2list" />
-        <item index="3" class="java.lang.String" itemvalue="Python.merge_sorted_arrays" />
-        <item index="4" class="java.lang.String" itemvalue="Python.instance_variable_python" />
+        <item index="0" class="java.lang.String" itemvalue="Python.merge_intervals" />
+        <item index="1" class="java.lang.String" itemvalue="Python.pre_order_interative" />
+        <item index="2" class="java.lang.String" itemvalue="Python.inorder_traversal_iterativelt" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tree2list" />
+        <item index="4" class="java.lang.String" itemvalue="Python.merge_sorted_arrays" />
       </list>
     </recent_temporary>
   </component>
@@ -594,7 +574,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478195661376</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Iterative Pre-Order iteration of Binary Tree in O(n) time and O(n) space">
+      <created>1478196810469</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1478196810469</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -610,7 +597,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.49791667" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39980638" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30977735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -651,7 +638,8 @@
     <MESSAGE value="Merge two arrays on O(m + n) time and O(1) space, assuming one of the array has enough space to accomodate&#10;elements of both array." />
     <MESSAGE value="To find diameter of the tree in O(n) time and O(log n) space" />
     <MESSAGE value="Convert a binary tree to double linked list (using static variable, hacky way of passing values of reference :|" />
-    <option name="LAST_COMMIT_MESSAGE" value="Convert a binary tree to double linked list (using static variable, hacky way of passing values of reference :|" />
+    <MESSAGE value="Iterative Pre-Order iteration of Binary Tree in O(n) time and O(n) space" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iterative Pre-Order iteration of Binary Tree in O(n) time and O(n) space" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -666,19 +654,17 @@
           <line>7</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/merge_intervals.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stack_min.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/queue_with_stack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1017,10 +1003,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tree2list.py">
+    <entry file="file://$PROJECT_DIR$/pre_order_interative.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="378">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1033,10 +1019,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pre_order_interative.py">
+    <entry file="file://$PROJECT_DIR$/tree2list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="22" />
+        <state relative-caret-position="236">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/merge_intervals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
