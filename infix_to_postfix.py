@@ -5,9 +5,15 @@ def to_postfix(input_expression):
 	for each in input_expression:
 		if is_operand(each):
 			result.append(each)
+		elif each == '(':
+			stack.append(each)
+		elif each == ')':
+			while stack[-1] != '(':
+				result.append(stack.pop())
+			stack.pop()
 		else:
 			if len(stack):
-				while len(stack) > 0 and (rank_of(stack[-1])) > rank_of(each):
+				while len(stack) > 0 and stack[-1] != '(' and rank_of(stack[-1]) > rank_of(each):
 					result.append(stack.pop())
 				stack.append(each)
 			else:
@@ -24,10 +30,10 @@ def is_operand(each):
 
 
 def rank_of(operarator):
-	ops_ranks = {'+': 1, '-': 1, '*': 2, '/': 2}
+	ops_ranks = {'+': 1, '-': 1, '*': 2, '/': 2, '(': 3}
 	return ops_ranks[operarator]
 
 
-expression = '2 * 3 + 4'
+expression = '2 * ( 3 + 4 )'
 
 print to_postfix(expression)
