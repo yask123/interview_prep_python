@@ -30,7 +30,7 @@ def is_operand(each):
 
 
 def rank_of(operarator):
-	ops_ranks = {'+': 1, '-': 1, '*': 2, '/': 2, '(': 3}
+	ops_ranks = {'+': 1, '-': 1, '*': 2, '/': 2}
 	return ops_ranks[operarator]
 
 
