@@ -10,16 +10,28 @@ class Solution:
 	# @param val1 : integer
 	# @param val2 : integer
 	# @return an integera
+	left_exist = False
+	right_exist = False
 	def lca(self, A, val1, val2):
+		result = self._lca(A, val1, val2)
+		if Solution.left_exist and Solution.right_exist:
+			return result
+		return -1
+
+	def _lca(self, A, val1, val2):
 		if A == None:
 			return -1
 
-		if A.val == val1 or A.val == val2:
+		if A.val == val1:
+			Solution.left_exist = True
+			return A.val
+		if A.val == val2:
+			Solution.right_exist = True
 			return A.val
 
-		in_left_subtree = self.lca(A.left, val1, val2)
+		in_left_subtree = self._lca(A.left, val1, val2)
 
-		in_right_subtree = self.lca(A.right, val1, val2)
+		in_right_subtree = self._lca(A.right, val1, val2)
 
 		if in_left_subtree != -1 and in_right_subtree != -1:
 			return A.val
