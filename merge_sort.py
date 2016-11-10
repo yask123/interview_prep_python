@@ -1,37 +1,44 @@
-arr = [1,5,2]
+def merge_sort(arr):
+    start_index = 0
+    end_index = len(arr) - 1
+
+    _merge_sort(arr, start_index, end_index)
+
+    return arr
 
 
-
-
-def merge_sort(arr, start_index, end_index):
-    count = 0
+def _merge_sort(arr, start_index, end_index):
     if start_index < end_index:
-        mid = (start_index + end_index)/2
-        count += merge_sort(arr, start_index, mid)
-        count += merge_sort(arr, mid+1, end_index)
+        mid = (start_index + end_index) / 2
 
-        count += merger(arr, start_index, end_index)
-        return count
-    else:
-        return 0
+        _merge_sort(arr, start_index, mid)
+        _merge_sort(arr, mid + 1, end_index)
 
-def merger(arr, start_index, end_index):
-    a_index =  start_index
-    mid = (start_index+end_index)/2
-    b_index = mid+1
+        merge(arr, start_index, end_index)
+
+
+def merge(arr, start_index, end_index):
+    mid = (start_index + end_index) / 2
+
+    a_index = start_index
+    b_index = mid + 1
     temp = []
-    count =  0
-    while (a_index <= mid and b_index <= end_index):
+    while a_index <= mid and b_index <= end_index:
         if arr[a_index] < arr[b_index]:
             temp.append(arr[a_index])
-            a_index+=1
+            a_index += 1
         else:
             temp.append(arr[b_index])
-            count += (mid - a_index)+1
-            b_index+=1
-    temp.extend(arr[a_index:mid+1])
-    temp.extend(arr[mid+1:end_index+1])
-    arr[start_index: end_index+1] = temp
-    return count
+            b_index += 1
 
-print merge_sort(arr,0,len(arr)-1)
+    temp.extend(arr[a_index: mid + 1])
+    temp.extend(arr[b_index: end_index + 1])
+
+    arr[start_index: end_index + 1] = temp
+
+
+arr = [43, 23, 324, 56, 324, 3243]
+
+merge_sort(arr)
+
+print arr
