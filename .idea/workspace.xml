@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="Selection sort in O(n^2) time and O(1) space">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bubble_sort.py" />
+    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="Bubble sort in O(n^2) time and O(1) space">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insertion_sort.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="intv.iws" />
@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bubble_sort.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bubble_sort.py">
+      <file leaf-file-name="insertion_sort.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/insertion_sort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+            <state relative-caret-position="162">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -43,12 +43,16 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Yask Srivastava &lt;yask123@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/check_tree_balance.py" />
         <option value="$PROJECT_DIR$/4sum.py" />
         <option value="$PROJECT_DIR$/deque.py" />
         <option value="$PROJECT_DIR$/balanced_brackets_combinations.py" />
@@ -99,6 +103,7 @@
         <option value="$PROJECT_DIR$/3_sum.py" />
         <option value="$PROJECT_DIR$/selection_sort.py" />
         <option value="$PROJECT_DIR$/bubble_sort.py" />
+        <option value="$PROJECT_DIR$/insertion_sort.py" />
       </list>
     </option>
   </component>
@@ -162,24 +167,7 @@
     <property name="FullScreen" value="true" />
     <property name="SearchEverywhereHistoryKey" value="heap&#9;null&#9;null&#10;bal&#9;FILE&#9;file:///Users/yask/Documents/intv/balanced_or_not.py" />
   </component>
-  <component name="RunManager" selected="Python.bubble_sort">
-    <configuration default="false" name="oops" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="intv" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oops.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.insertion_sort">
     <configuration default="false" name="un_nest_nested_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,6 +232,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="intv" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bubble_sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="insertion_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="intv" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/insertion_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -383,19 +388,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.oops" />
-      <item index="1" class="java.lang.String" itemvalue="Python.un_nest_nested_list" />
-      <item index="2" class="java.lang.String" itemvalue="Python.inorder_traversal_iterativelt" />
-      <item index="3" class="java.lang.String" itemvalue="Python.selection_sort" />
-      <item index="4" class="java.lang.String" itemvalue="Python.bubble_sort" />
+      <item index="0" class="java.lang.String" itemvalue="Python.un_nest_nested_list" />
+      <item index="1" class="java.lang.String" itemvalue="Python.inorder_traversal_iterativelt" />
+      <item index="2" class="java.lang.String" itemvalue="Python.selection_sort" />
+      <item index="3" class="java.lang.String" itemvalue="Python.bubble_sort" />
+      <item index="4" class="java.lang.String" itemvalue="Python.insertion_sort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.bubble_sort" />
-        <item index="1" class="java.lang.String" itemvalue="Python.selection_sort" />
-        <item index="2" class="java.lang.String" itemvalue="Python.inorder_traversal_iterativelt" />
-        <item index="3" class="java.lang.String" itemvalue="Python.un_nest_nested_list" />
-        <item index="4" class="java.lang.String" itemvalue="Python.oops" />
+        <item index="0" class="java.lang.String" itemvalue="Python.insertion_sort" />
+        <item index="1" class="java.lang.String" itemvalue="Python.bubble_sort" />
+        <item index="2" class="java.lang.String" itemvalue="Python.selection_sort" />
+        <item index="3" class="java.lang.String" itemvalue="Python.inorder_traversal_iterativelt" />
+        <item index="4" class="java.lang.String" itemvalue="Python.un_nest_nested_list" />
       </list>
     </recent_temporary>
   </component>
@@ -672,7 +677,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478799096223</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Bubble sort in O(n^2) time and O(1) space">
+      <created>1478799618920</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1478799618921</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -684,7 +696,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2391094" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2391094" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.49791667" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -711,8 +723,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Successor and Predicessor of a key in BST." />
     <MESSAGE value="Searches for word in the maze in O(n) time logN space complexity" />
     <MESSAGE value="Sorted List to BST in O(n) time and Log(n) Space" />
     <MESSAGE value="Knapsack with (horrible) exponential (2^n) time complexity.&#10;" />
@@ -737,8 +749,11 @@
     <MESSAGE value="Flatten a tree in inorder fashion (uses O(n) space)" />
     <MESSAGE value="Added O(n) pre-order traversal interative way!" />
     <MESSAGE value="Selection sort in O(n^2) time and O(1) space" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selection sort in O(n^2) time and O(1) space" />
+    <MESSAGE value="Bubble sort in O(n^2) time and O(1) space" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bubble sort in O(n^2) time and O(1) space" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -762,13 +777,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/remove_duplicate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recur_reverse_string.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1119,7 +1127,15 @@
     <entry file="file://$PROJECT_DIR$/bubble_sort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insertion_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding />
         </state>
       </provider>
