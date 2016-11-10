@@ -8,21 +8,33 @@ class Node:
         self.right = None
 
 def inorder_iter(root):
-
     stack = [root]
-    current = root
 
     while len(stack) > 0:
-        if current:
-            while current.left:
-                stack.append(current.left)
-                current = current.left
         popped_node = stack.pop()
-        current = None
-        if popped_node:
-            print popped_node.value
+        print popped_node.value
+        if popped_node.right:
+            stack.append(popped_node.right)
+        if popped_node.left:
+            stack.append(popped_node.left)
+
+
+def pre_order(root):
+    stack = [root]
+    current = root
+    while len(stack) > 0:
+
+        while current.left:
+            stack.append(current.left)
+            current = current.left
+        popped_node = stack.pop()
+
+        print popped_node.value
+
+        if popped_node.right:
             current = popped_node.right
-            stack.append(current)
+            stack.append(popped_node.right)
+
 
 # Driver program to test above function
 
@@ -39,4 +51,4 @@ root.right = Node(3)
 root.left.left = Node(4)
 root.left.right = Node(5)
 
-inorder_iter(root)
+pre_order(root)

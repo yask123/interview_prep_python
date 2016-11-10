@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="cake theif ,exponential time">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flatten_binary_tree.py" />
+    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="Flatten a tree in inorder fashion (uses O(n) space)">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/un_nest_nested_list.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inorder_traversal_iterativelt.py" afterPath="$PROJECT_DIR$/inorder_traversal_iterativelt.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oops.py" afterPath="$PROJECT_DIR$/oops.py" />
     </list>
     <ignored path="intv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="flatten_binary_tree.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flatten_binary_tree.py">
+      <file leaf-file-name="oops.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oops.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="432">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inorder_traversal_iterativelt.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inorder_traversal_iterativelt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="34" column="19" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -48,8 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sorted_double_ll_to_BST.py" />
-        <option value="$PROJECT_DIR$/My_Trie.py" />
         <option value="$PROJECT_DIR$/bulb.py" />
         <option value="$PROJECT_DIR$/check_balanced_tree.py" />
         <option value="$PROJECT_DIR$/check_tree_balance.py" />
@@ -96,9 +106,11 @@
         <option value="$PROJECT_DIR$/interval_tree.py" />
         <option value="$PROJECT_DIR$/lowest_common_ancestor.py" />
         <option value="$PROJECT_DIR$/longest_subarray_with_atmost_sum_k.py" />
-        <option value="$PROJECT_DIR$/oops.py" />
         <option value="$PROJECT_DIR$/cake_theif.py" />
         <option value="$PROJECT_DIR$/flatten_binary_tree.py" />
+        <option value="$PROJECT_DIR$/oops.py" />
+        <option value="$PROJECT_DIR$/un_nest_nested_list.py" />
+        <option value="$PROJECT_DIR$/inorder_traversal_iterativelt.py" />
       </list>
     </option>
   </component>
@@ -162,41 +174,7 @@
     <property name="FullScreen" value="true" />
     <property name="SearchEverywhereHistoryKey" value="heap&#9;null&#9;null&#10;bal&#9;FILE&#9;file:///Users/yask/Documents/intv/balanced_or_not.py" />
   </component>
-  <component name="RunManager" selected="Python.flatten_binary_tree">
-    <configuration default="false" name="largest_stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="intv" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/largest_stack.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="infix_to_postfix" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="intv" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/infix_to_postfix.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.inorder_traversal_iterativelt">
     <configuration default="false" name="longest_subarray_with_atmost_sum_k" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,6 +222,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="intv" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flatten_binary_tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="un_nest_nested_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="intv" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/un_nest_nested_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="inorder_traversal_iterativelt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="intv" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inorder_traversal_iterativelt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -383,19 +395,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.largest_stack" />
-      <item index="1" class="java.lang.String" itemvalue="Python.infix_to_postfix" />
-      <item index="2" class="java.lang.String" itemvalue="Python.longest_subarray_with_atmost_sum_k" />
-      <item index="3" class="java.lang.String" itemvalue="Python.oops" />
-      <item index="4" class="java.lang.String" itemvalue="Python.flatten_binary_tree" />
+      <item index="0" class="java.lang.String" itemvalue="Python.longest_subarray_with_atmost_sum_k" />
+      <item index="1" class="java.lang.String" itemvalue="Python.oops" />
+      <item index="2" class="java.lang.String" itemvalue="Python.flatten_binary_tree" />
+      <item index="3" class="java.lang.String" itemvalue="Python.un_nest_nested_list" />
+      <item index="4" class="java.lang.String" itemvalue="Python.inorder_traversal_iterativelt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.flatten_binary_tree" />
-        <item index="1" class="java.lang.String" itemvalue="Python.oops" />
-        <item index="2" class="java.lang.String" itemvalue="Python.longest_subarray_with_atmost_sum_k" />
-        <item index="3" class="java.lang.String" itemvalue="Python.infix_to_postfix" />
-        <item index="4" class="java.lang.String" itemvalue="Python.largest_stack" />
+        <item index="0" class="java.lang.String" itemvalue="Python.inorder_traversal_iterativelt" />
+        <item index="1" class="java.lang.String" itemvalue="Python.un_nest_nested_list" />
+        <item index="2" class="java.lang.String" itemvalue="Python.oops" />
+        <item index="3" class="java.lang.String" itemvalue="Python.flatten_binary_tree" />
+        <item index="4" class="java.lang.String" itemvalue="Python.longest_subarray_with_atmost_sum_k" />
       </list>
     </recent_temporary>
   </component>
@@ -651,7 +663,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478425577274</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Flatten a tree in inorder fashion (uses O(n) space)">
+      <created>1478444405244</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1478444405244</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -691,7 +710,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="4-Sum on O(n^2) time and space" />
     <MESSAGE value="LRU cache with set(key, val) and get(key) API functions implemented with O(1) speed using deque mapped with keys." />
     <MESSAGE value="Reverse LinkedList in group of size K in O(n) time abd O(n/k) space" />
     <MESSAGE value="Successor and Predicessor of a key in BST." />
@@ -716,7 +734,8 @@
     <MESSAGE value="fixed bug in LCA if either of the node (A or B) isn't present" />
     <MESSAGE value="Longest substring with atmost sum = k in O(n) time  and O(1) space" />
     <MESSAGE value="cake theif ,exponential time" />
-    <option name="LAST_COMMIT_MESSAGE" value="cake theif ,exponential time" />
+    <MESSAGE value="Flatten a tree in inorder fashion (uses O(n) space)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flatten a tree in inorder fashion (uses O(n) space)" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -736,18 +755,11 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/missing_no.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sliding_max.py" />
     <entry file="file://$PROJECT_DIR$/sorted_insertion_partition.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -823,13 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inorder_traversal_iterativelt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1006,7 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="118" column="28" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,7 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,7 +1071,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4sum">
+    <entry file="file://$PROJECT_DIR$/4sum" />
+    <entry file="file://$PROJECT_DIR$/cake_theif.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flatten_binary_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/un_nest_nested_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1076,7 +1095,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cake_theif.py">
+    <entry file="file://$PROJECT_DIR$/oops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
@@ -1084,18 +1103,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oops.py">
+    <entry file="file://$PROJECT_DIR$/inorder_traversal_iterativelt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flatten_binary_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="594">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="19" />
           <folding />
         </state>
       </provider>
