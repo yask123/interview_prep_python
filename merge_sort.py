@@ -23,6 +23,7 @@ def merge(arr, start_index, end_index):
     a_index = start_index
     b_index = mid + 1
     temp = []
+
     while a_index <= mid and b_index <= end_index:
         if arr[a_index] < arr[b_index]:
             temp.append(arr[a_index])
