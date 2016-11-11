@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="heapsort">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduce_string.py" />
+    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="compress string">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compress_string.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="intv.iws" />
@@ -23,21 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="heap_sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heap_sort.py">
+      <file leaf-file-name="compress_string.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/compress_string.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reduce_string.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/reduce_string.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="234">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -63,7 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/reverse_linked_list_in_group_of_size.py" />
         <option value="$PROJECT_DIR$/permutate.py" />
         <option value="$PROJECT_DIR$/frequency_of_number_sorted_array.py" />
         <option value="$PROJECT_DIR$/sliding_max.py" />
@@ -114,6 +103,7 @@
         <option value="$PROJECT_DIR$/merge_sorted_arrays.py" />
         <option value="$PROJECT_DIR$/heap_sort.py" />
         <option value="$PROJECT_DIR$/reduce_string.py" />
+        <option value="$PROJECT_DIR$/compress_string.py" />
       </list>
     </option>
   </component>
@@ -177,24 +167,7 @@
     <property name="FullScreen" value="true" />
     <property name="SearchEverywhereHistoryKey" value="heap&#9;null&#9;null&#10;bal&#9;FILE&#9;file:///Users/yask/Documents/intv/balanced_or_not.py" />
   </component>
-  <component name="RunManager" selected="Python.reduce_string">
-    <configuration default="false" name="insertion_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="intv" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/insertion_sort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.compress_string">
     <configuration default="false" name="merge_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,6 +232,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="intv" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reduce_string.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="compress_string" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="intv" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/compress_string.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -398,19 +388,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.insertion_sort" />
-      <item index="1" class="java.lang.String" itemvalue="Python.merge_sort" />
-      <item index="2" class="java.lang.String" itemvalue="Python.merge_sorted_arrays" />
-      <item index="3" class="java.lang.String" itemvalue="Python.heap_sort" />
-      <item index="4" class="java.lang.String" itemvalue="Python.reduce_string" />
+      <item index="0" class="java.lang.String" itemvalue="Python.merge_sort" />
+      <item index="1" class="java.lang.String" itemvalue="Python.merge_sorted_arrays" />
+      <item index="2" class="java.lang.String" itemvalue="Python.heap_sort" />
+      <item index="3" class="java.lang.String" itemvalue="Python.reduce_string" />
+      <item index="4" class="java.lang.String" itemvalue="Python.compress_string" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.reduce_string" />
-        <item index="1" class="java.lang.String" itemvalue="Python.heap_sort" />
-        <item index="2" class="java.lang.String" itemvalue="Python.merge_sorted_arrays" />
-        <item index="3" class="java.lang.String" itemvalue="Python.merge_sort" />
-        <item index="4" class="java.lang.String" itemvalue="Python.insertion_sort" />
+        <item index="0" class="java.lang.String" itemvalue="Python.compress_string" />
+        <item index="1" class="java.lang.String" itemvalue="Python.reduce_string" />
+        <item index="2" class="java.lang.String" itemvalue="Python.heap_sort" />
+        <item index="3" class="java.lang.String" itemvalue="Python.merge_sorted_arrays" />
+        <item index="4" class="java.lang.String" itemvalue="Python.merge_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -722,7 +712,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478806369102</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="reduce input string">
+      <created>1478880329082</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1478880329082</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -731,6 +728,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16614583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -763,8 +761,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Reverse LL in O(n)  and O(1) space using recursion" />
-    <MESSAGE value="Topological sort with O(n) time and O(n) space :)" />
     <MESSAGE value="Delete m nodes after n nodes, and keep repeating.." />
     <MESSAGE value="Merge two arrays on O(m + n) time and O(1) space, assuming one of the array has enough space to accomodate&#10;elements of both array." />
     <MESSAGE value="To find diameter of the tree in O(n) time and O(log n) space" />
@@ -788,7 +784,9 @@
     <MESSAGE value="Merge sort, uses O(nlogn) time and O(n) space.&#10;can be optimized to use O(1) space if merging is done backwards and one of the array contains enough space to accomodate the total merged array" />
     <MESSAGE value="Merge sorted arrays" />
     <MESSAGE value="heapsort" />
-    <option name="LAST_COMMIT_MESSAGE" value="heapsort" />
+    <MESSAGE value="reduce input string" />
+    <MESSAGE value="compress string" />
+    <option name="LAST_COMMIT_MESSAGE" value="compress string" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -809,24 +807,12 @@
           <url>file://$PROJECT_DIR$/longest_subarray_with_atmost_sum_k.py</url>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/reduce_string.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/next_greater_number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pre_order_interative.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1159,6 +1145,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/reduce_string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/heap_sort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1167,10 +1161,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reduce_string.py">
+    <entry file="file://$PROJECT_DIR$/compress_string.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="234">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding />
         </state>
       </provider>
