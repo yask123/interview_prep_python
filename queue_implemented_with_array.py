@@ -1,3 +1,7 @@
+'''
+This is based on circular array.
+'''
+
 class Queue:
 	def __init__(self, capacity=10):
 		self.capacity = capacity
