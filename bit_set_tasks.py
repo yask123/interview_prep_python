@@ -12,3 +12,13 @@ def set_bit(n, i):
 	4 -> 100 -> set_bit(4,0) -> 101 -> 5
 	'''
 	return n | 1 << i
+
+
+def clear_bit(n, i):
+	'''
+	Clears the ith bit from the left.
+	4 -> 100 clear_bit(4,2) -> 000 -> 0
+	5 -> 101 clear_bit(5,2) -> 001 -> 1
+	'''
+	mask = ~(1 << i)
+	return n & mask
