@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="Queue implemented via circular array">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lexographical_numbers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number_code.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_heap.py" afterPath="$PROJECT_DIR$/my_heap.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/queue_implemented_with_array.py" afterPath="$PROJECT_DIR$/queue_implemented_with_array.py" />
     </list>
     <ignored path="intv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,21 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="my_heap.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_heap.py">
+      <file leaf-file-name="number_code.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/number_code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lexographical_numbers.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lexographical_numbers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -65,7 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/successor_predicessor.py" />
         <option value="$PROJECT_DIR$/zero_at_end.py" />
         <option value="$PROJECT_DIR$/level_by_level.py" />
         <option value="$PROJECT_DIR$/word_search_board.py" />
@@ -116,6 +103,7 @@
         <option value="$PROJECT_DIR$/queue_implemented_with_array.py" />
         <option value="$PROJECT_DIR$/my_heap.py" />
         <option value="$PROJECT_DIR$/lexographical_numbers.py" />
+        <option value="$PROJECT_DIR$/number_code.py" />
       </list>
     </option>
   </component>
@@ -179,24 +167,7 @@
     <property name="FullScreen" value="true" />
     <property name="SearchEverywhereHistoryKey" value="heap&#9;null&#9;null&#10;bal&#9;FILE&#9;file:///Users/yask/Documents/intv/balanced_or_not.py" />
   </component>
-  <component name="RunManager" selected="Python.lexographical_numbers">
-    <configuration default="false" name="reduce_string" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="intv" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reduce_string.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.number_code">
     <configuration default="false" name="compress_string" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,6 +232,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="intv" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lexographical_numbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="number_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="intv" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/number_code.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -400,19 +388,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.reduce_string" />
-      <item index="1" class="java.lang.String" itemvalue="Python.compress_string" />
-      <item index="2" class="java.lang.String" itemvalue="Python.bit_set_tasks" />
-      <item index="3" class="java.lang.String" itemvalue="Python.queue_implemented_with_array" />
-      <item index="4" class="java.lang.String" itemvalue="Python.lexographical_numbers" />
+      <item index="0" class="java.lang.String" itemvalue="Python.compress_string" />
+      <item index="1" class="java.lang.String" itemvalue="Python.bit_set_tasks" />
+      <item index="2" class="java.lang.String" itemvalue="Python.queue_implemented_with_array" />
+      <item index="3" class="java.lang.String" itemvalue="Python.lexographical_numbers" />
+      <item index="4" class="java.lang.String" itemvalue="Python.number_code" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.lexographical_numbers" />
-        <item index="1" class="java.lang.String" itemvalue="Python.queue_implemented_with_array" />
-        <item index="2" class="java.lang.String" itemvalue="Python.bit_set_tasks" />
-        <item index="3" class="java.lang.String" itemvalue="Python.compress_string" />
-        <item index="4" class="java.lang.String" itemvalue="Python.reduce_string" />
+        <item index="0" class="java.lang.String" itemvalue="Python.number_code" />
+        <item index="1" class="java.lang.String" itemvalue="Python.lexographical_numbers" />
+        <item index="2" class="java.lang.String" itemvalue="Python.queue_implemented_with_array" />
+        <item index="3" class="java.lang.String" itemvalue="Python.bit_set_tasks" />
+        <item index="4" class="java.lang.String" itemvalue="Python.compress_string" />
       </list>
     </recent_temporary>
   </component>
@@ -766,7 +754,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478954702412</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Queue implemented via circular array">
+      <created>1478967768341</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1478967768341</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -855,18 +850,11 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="33" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/left_shift.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deque.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -1202,6 +1190,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lexographical_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my_heap.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -1210,10 +1206,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lexographical_numbers.py">
+    <entry file="file://$PROJECT_DIR$/number_code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
         </state>
       </provider>
