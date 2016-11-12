@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="Queue implemented via circular array">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number_code.py" />
+    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="get code">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insertion_sort.py" afterPath="$PROJECT_DIR$/insertion_sort.py" />
     </list>
     <ignored path="intv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +23,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="number_code.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="number_code.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/number_code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="90">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bit_set_tasks.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bit_set_tasks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertion_sort.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/insertion_sort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,7 +113,6 @@
         <option value="$PROJECT_DIR$/3_sum.py" />
         <option value="$PROJECT_DIR$/selection_sort.py" />
         <option value="$PROJECT_DIR$/bubble_sort.py" />
-        <option value="$PROJECT_DIR$/insertion_sort.py" />
         <option value="$PROJECT_DIR$/merge_sort.py" />
         <option value="$PROJECT_DIR$/merge_sorted_arrays.py" />
         <option value="$PROJECT_DIR$/heap_sort.py" />
@@ -104,6 +123,7 @@
         <option value="$PROJECT_DIR$/my_heap.py" />
         <option value="$PROJECT_DIR$/lexographical_numbers.py" />
         <option value="$PROJECT_DIR$/number_code.py" />
+        <option value="$PROJECT_DIR$/insertion_sort.py" />
       </list>
     </option>
   </component>
@@ -167,24 +187,7 @@
     <property name="FullScreen" value="true" />
     <property name="SearchEverywhereHistoryKey" value="heap&#9;null&#9;null&#10;bal&#9;FILE&#9;file:///Users/yask/Documents/intv/balanced_or_not.py" />
   </component>
-  <component name="RunManager" selected="Python.number_code">
-    <configuration default="false" name="compress_string" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="intv" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/compress_string.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.insertion_sort">
     <configuration default="false" name="bit_set_tasks" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,6 +252,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="intv" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/number_code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="insertion_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="intv" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/insertion_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -388,19 +408,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.compress_string" />
-      <item index="1" class="java.lang.String" itemvalue="Python.bit_set_tasks" />
-      <item index="2" class="java.lang.String" itemvalue="Python.queue_implemented_with_array" />
-      <item index="3" class="java.lang.String" itemvalue="Python.lexographical_numbers" />
-      <item index="4" class="java.lang.String" itemvalue="Python.number_code" />
+      <item index="0" class="java.lang.String" itemvalue="Python.bit_set_tasks" />
+      <item index="1" class="java.lang.String" itemvalue="Python.queue_implemented_with_array" />
+      <item index="2" class="java.lang.String" itemvalue="Python.lexographical_numbers" />
+      <item index="3" class="java.lang.String" itemvalue="Python.number_code" />
+      <item index="4" class="java.lang.String" itemvalue="Python.insertion_sort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.number_code" />
-        <item index="1" class="java.lang.String" itemvalue="Python.lexographical_numbers" />
-        <item index="2" class="java.lang.String" itemvalue="Python.queue_implemented_with_array" />
-        <item index="3" class="java.lang.String" itemvalue="Python.bit_set_tasks" />
-        <item index="4" class="java.lang.String" itemvalue="Python.compress_string" />
+        <item index="0" class="java.lang.String" itemvalue="Python.insertion_sort" />
+        <item index="1" class="java.lang.String" itemvalue="Python.number_code" />
+        <item index="2" class="java.lang.String" itemvalue="Python.lexographical_numbers" />
+        <item index="3" class="java.lang.String" itemvalue="Python.queue_implemented_with_array" />
+        <item index="4" class="java.lang.String" itemvalue="Python.bit_set_tasks" />
       </list>
     </recent_temporary>
   </component>
@@ -417,13 +437,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472503872448</updated>
-    </task>
-    <task id="LOCAL-00001" summary="updated&#10;">
-      <created>1477663393703</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1477663393704</updated>
     </task>
     <task id="LOCAL-00002" summary="added readme">
       <created>1477664729492</created>
@@ -761,7 +774,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478967768341</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="get code">
+      <created>1478973000152</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1478973000154</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -773,7 +793,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2391094" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2391094" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.49791667" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -803,7 +823,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Iterative Pre-Order iteration of Binary Tree in O(n) time and O(n) space" />
     <MESSAGE value="Merge intervals in O(n) time ans O(n) space &#10;https://leetcode.com/problems/insert-interval/" />
     <MESSAGE value="Shortest substring with all unique characters in O(n) time and O(n) space" />
     <MESSAGE value="Design stack using 2 Queues , push(x) -&gt; O(1) , pop() -&gt; O(n), using O(n) space" />
@@ -828,7 +847,8 @@
     <MESSAGE value="O(1) to set ith bit in any number" />
     <MESSAGE value="O(1) to clear ith bit in any number" />
     <MESSAGE value="Queue implemented via circular array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Queue implemented via circular array" />
+    <MESSAGE value="get code" />
+    <option name="LAST_COMMIT_MESSAGE" value="get code" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1138,13 +1158,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insertion_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/merge_sorted_arrays.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -1163,14 +1176,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bit_set_tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1208,8 +1213,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/number_code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="90">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bit_set_tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insertion_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
