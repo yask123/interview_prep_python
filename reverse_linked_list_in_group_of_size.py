@@ -1,30 +1,10 @@
 '''reverse node in groups of k'''
 
-
-def reverse_ll(head, k):
-	if head == None:
-		return
-
-	prev = None
-	current = head
-
-	for _ in range(k):
-		next_node = current.next
-
-		current.next = prev
-
-		prev = current
-		current = next_node
-
-	head.next = reverse_ll(current, k)
-
-	return prev
-
-
-def print_ll(current):
-	while current:
-		print current.data, '-->',
-		current = current.next
+'''
+Example:
+Inputs:  1->2->3->4->5->6->7->8->NULL and k = 3
+Output:  3->2->1->6->5->4->8->7->NULL.
+'''
 
 
 class Node:
@@ -33,15 +13,36 @@ class Node:
 		self.next = None
 
 
-a = Node(1)
-b = Node(2)
-c = Node(3)
-d = Node(4)
+def reverse_in_group(head, k):
 
-a.next = b
-b.next = c
-c.next = d
+	if head == None:
+		return
 
-a = reverse_ll(a, 2)
+	prev = None
+	current = head
+	for _ in range(k):
+		next_node = current.next
+		current.next = prev
+		prev = current
+		current = next_node
 
-print_ll(a)
+	head.next = reverse_in_group(current, k)
+	return prev
+
+
+m_head = Node(0)
+current = m_head
+for i in range(1, 10):
+	new_node = Node(i)
+	current.next = new_node
+	current = new_node
+
+
+def print_nodes(head):
+	while head:
+		print head.data, '-->',
+		head = head.next
+
+
+m_head = reverse_in_group(m_head, 2)
+print_nodes(m_head)
