@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="O(nlogn) even though this could be solved in O(n)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotate_linked_list.py" />
+    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="Rotate LinkedList">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/max_depth_of_tree.py" afterPath="$PROJECT_DIR$/max_depth_of_tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rotate_linked_list.py" afterPath="$PROJECT_DIR$/rotate_linked_list.py" />
     </list>
     <ignored path="intv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/max_depth_of_tree.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -37,8 +36,8 @@
       <file leaf-file-name="rotate_linked_list.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rotate_linked_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="414">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -429,13 +428,6 @@
       <option name="presentableId" value="Default" />
       <updated>1472503872448</updated>
     </task>
-    <task id="LOCAL-00006" summary="Trie with insertion, searching, prefix search for words (supports a-z)">
-      <created>1477730053602</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1477730053602</updated>
-    </task>
     <task id="LOCAL-00007" summary="Trie with insertion, searching, prefix search for words (supports a-z)">
       <created>1477730348771</created>
       <option name="number" value="00007" />
@@ -772,7 +764,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479296075996</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Rotate LinkedList">
+      <created>1479319087230</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1479319087231</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -814,7 +813,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Infix to postfix (without brackets) in O(n) time and O(n) space" />
     <MESSAGE value="Infix to postfix (supports  brackets) in O(n) time and O(n) space" />
     <MESSAGE value="updated" />
     <MESSAGE value="fixed bug in LCA if either of the node (A or B) isn't present" />
@@ -839,7 +837,8 @@
     <MESSAGE value="stack sorting" />
     <MESSAGE value="O(n) time ans (n) space" />
     <MESSAGE value="O(nlogn) even though this could be solved in O(n)" />
-    <option name="LAST_COMMIT_MESSAGE" value="O(nlogn) even though this could be solved in O(n)" />
+    <MESSAGE value="Rotate LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rotate LinkedList" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -862,7 +861,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/max_depth_of_tree.py</url>
-          <line>11</line>
+          <line>12</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
@@ -1214,15 +1213,15 @@
     <entry file="file://$PROJECT_DIR$/max_depth_of_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rotate_linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="414">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding />
         </state>
       </provider>

@@ -1,4 +1,4 @@
-# Rotate linked list
+# Rotate linked list https://www.interviewbit.com/problems/rotate-list/
 '''
 Concept: New head will be N - K th element. Set prev of (n-k)th to None and set the tail of linked list to prev head
 O(n)
