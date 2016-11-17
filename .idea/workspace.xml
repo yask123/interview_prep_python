@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="Reversed m to n nodes in a linked list. Handles all the edge cases well. O(n)">
+    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="next permutation, elegant way !">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/letter_phone.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/next_perm.py" afterPath="$PROJECT_DIR$/next_perm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subset_sum.py" afterPath="$PROJECT_DIR$/subset_sum.py" />
     </list>
     <ignored path="intv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="next_perm.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/next_perm.py">
+      <file leaf-file-name="subset_sum.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/subset_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="306">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="letter_phone.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/letter_phone.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -54,8 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tower_of_hanoi.py" />
-        <option value="$PROJECT_DIR$/topological_sort.py" />
         <option value="$PROJECT_DIR$/nqueens.py" />
         <option value="$PROJECT_DIR$/my_lru.py" />
         <option value="$PROJECT_DIR$/generator.py" />
@@ -105,6 +114,8 @@
         <option value="$PROJECT_DIR$/rotate_linked_list.py" />
         <option value="$PROJECT_DIR$/reverse_linkedlist_m_n.py" />
         <option value="$PROJECT_DIR$/next_perm.py" />
+        <option value="$PROJECT_DIR$/subset_sum.py" />
+        <option value="$PROJECT_DIR$/letter_phone.py" />
       </list>
     </option>
   </component>
@@ -168,24 +179,7 @@
     <property name="SearchEverywhereHistoryKey" value="heap&#9;null&#9;null&#10;bal&#9;FILE&#9;file:///Users/yask/Documents/intv/balanced_or_not.py" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Python.next_perm">
-    <configuration default="false" name="longest_increasing_subsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="intv" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/longest_increasing_subsequence.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.letter_phone">
     <configuration default="false" name="max_contiguous_array" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -250,6 +244,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="intv" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/next_perm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="letter_phone" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="intv" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/letter_phone.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -389,19 +400,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.longest_increasing_subsequence" />
-      <item index="1" class="java.lang.String" itemvalue="Python.max_contiguous_array" />
-      <item index="2" class="java.lang.String" itemvalue="Python.max_depth_of_tree" />
-      <item index="3" class="java.lang.String" itemvalue="Python.reverse_linkedlist_m_n" />
-      <item index="4" class="java.lang.String" itemvalue="Python.next_perm" />
+      <item index="0" class="java.lang.String" itemvalue="Python.max_contiguous_array" />
+      <item index="1" class="java.lang.String" itemvalue="Python.max_depth_of_tree" />
+      <item index="2" class="java.lang.String" itemvalue="Python.reverse_linkedlist_m_n" />
+      <item index="3" class="java.lang.String" itemvalue="Python.next_perm" />
+      <item index="4" class="java.lang.String" itemvalue="Python.letter_phone" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.next_perm" />
-        <item index="1" class="java.lang.String" itemvalue="Python.reverse_linkedlist_m_n" />
-        <item index="2" class="java.lang.String" itemvalue="Python.max_depth_of_tree" />
-        <item index="3" class="java.lang.String" itemvalue="Python.max_contiguous_array" />
-        <item index="4" class="java.lang.String" itemvalue="Python.longest_increasing_subsequence" />
+        <item index="0" class="java.lang.String" itemvalue="Python.letter_phone" />
+        <item index="1" class="java.lang.String" itemvalue="Python.next_perm" />
+        <item index="2" class="java.lang.String" itemvalue="Python.reverse_linkedlist_m_n" />
+        <item index="3" class="java.lang.String" itemvalue="Python.max_depth_of_tree" />
+        <item index="4" class="java.lang.String" itemvalue="Python.max_contiguous_array" />
       </list>
     </recent_temporary>
   </component>
@@ -418,13 +429,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472503872448</updated>
-    </task>
-    <task id="LOCAL-00010" summary="LRU cache with set(key, val) and get(key) API functions implemented with O(1) speed using deque mapped with keys.">
-      <created>1477748025670</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1477748025670</updated>
     </task>
     <task id="LOCAL-00011" summary="Reverse LinkedList in group of size K in O(n) time abd O(n/k) space">
       <created>1477751487097</created>
@@ -762,7 +766,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479321140706</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="next permutation, elegant way !">
+      <created>1479378559054</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1479378559055</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -804,7 +815,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="updated" />
     <MESSAGE value="fixed bug in LCA if either of the node (A or B) isn't present" />
     <MESSAGE value="Longest substring with atmost sum = k in O(n) time  and O(1) space" />
     <MESSAGE value="cake theif ,exponential time" />
@@ -829,7 +839,8 @@
     <MESSAGE value="O(nlogn) even though this could be solved in O(n)" />
     <MESSAGE value="Rotate LinkedList" />
     <MESSAGE value="Reversed m to n nodes in a linked list. Handles all the edge cases well. O(n)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reversed m to n nodes in a linked list. Handles all the edge cases well. O(n)" />
+    <MESSAGE value="next permutation, elegant way !" />
+    <option name="LAST_COMMIT_MESSAGE" value="next permutation, elegant way !" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -861,20 +872,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/largest_stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csv_parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1190,6 +1187,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1210,8 +1208,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/next_perm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="144">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subset_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letter_phone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
           <folding />
         </state>
       </provider>

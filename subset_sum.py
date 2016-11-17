@@ -1,5 +1,4 @@
-
-rar = [1,2,3,4]  
+arr = [1, 2, 3, 4]
 
 
 def sub_set_sum(arr, current_index, target, ans):
