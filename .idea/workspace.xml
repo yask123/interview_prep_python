@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="next permutation, elegant way !">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/letter_phone.py" />
+    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="letter phone problem">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subset_sum.py" afterPath="$PROJECT_DIR$/subset_sum.py" />
     </list>
@@ -24,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="subset_sum.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="subset_sum.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/subset_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="90">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="letter_phone.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="letter_phone.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/letter_phone.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+            <state relative-caret-position="162">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,14 +113,14 @@
         <option value="$PROJECT_DIR$/rotate_linked_list.py" />
         <option value="$PROJECT_DIR$/reverse_linkedlist_m_n.py" />
         <option value="$PROJECT_DIR$/next_perm.py" />
-        <option value="$PROJECT_DIR$/subset_sum.py" />
         <option value="$PROJECT_DIR$/letter_phone.py" />
+        <option value="$PROJECT_DIR$/subset_sum.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -179,24 +178,7 @@
     <property name="SearchEverywhereHistoryKey" value="heap&#9;null&#9;null&#10;bal&#9;FILE&#9;file:///Users/yask/Documents/intv/balanced_or_not.py" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Python.letter_phone">
-    <configuration default="false" name="max_contiguous_array" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="intv" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/max_contiguous_array.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.subset_sum">
     <configuration default="false" name="max_depth_of_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,6 +243,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="intv" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/letter_phone.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="subset_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="intv" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/subset_sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -400,19 +399,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.max_contiguous_array" />
-      <item index="1" class="java.lang.String" itemvalue="Python.max_depth_of_tree" />
-      <item index="2" class="java.lang.String" itemvalue="Python.reverse_linkedlist_m_n" />
-      <item index="3" class="java.lang.String" itemvalue="Python.next_perm" />
-      <item index="4" class="java.lang.String" itemvalue="Python.letter_phone" />
+      <item index="0" class="java.lang.String" itemvalue="Python.max_depth_of_tree" />
+      <item index="1" class="java.lang.String" itemvalue="Python.reverse_linkedlist_m_n" />
+      <item index="2" class="java.lang.String" itemvalue="Python.next_perm" />
+      <item index="3" class="java.lang.String" itemvalue="Python.letter_phone" />
+      <item index="4" class="java.lang.String" itemvalue="Python.subset_sum" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.letter_phone" />
-        <item index="1" class="java.lang.String" itemvalue="Python.next_perm" />
-        <item index="2" class="java.lang.String" itemvalue="Python.reverse_linkedlist_m_n" />
-        <item index="3" class="java.lang.String" itemvalue="Python.max_depth_of_tree" />
-        <item index="4" class="java.lang.String" itemvalue="Python.max_contiguous_array" />
+        <item index="0" class="java.lang.String" itemvalue="Python.subset_sum" />
+        <item index="1" class="java.lang.String" itemvalue="Python.letter_phone" />
+        <item index="2" class="java.lang.String" itemvalue="Python.next_perm" />
+        <item index="3" class="java.lang.String" itemvalue="Python.reverse_linkedlist_m_n" />
+        <item index="4" class="java.lang.String" itemvalue="Python.max_depth_of_tree" />
       </list>
     </recent_temporary>
   </component>
@@ -429,13 +428,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472503872448</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Reverse LinkedList in group of size K in O(n) time abd O(n/k) space">
-      <created>1477751487097</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1477751487097</updated>
     </task>
     <task id="LOCAL-00012" summary="Reverse LinkedList in group of size K in O(n) time abd O(n/k) space">
       <created>1477751685801</created>
@@ -773,23 +765,30 @@
       <option name="project" value="LOCAL" />
       <updated>1479378559055</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="letter phone problem">
+      <created>1479384574666</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1479384574666</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14609376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20425944" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2802125" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.49791667" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22555663" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42629483" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -815,7 +814,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="fixed bug in LCA if either of the node (A or B) isn't present" />
     <MESSAGE value="Longest substring with atmost sum = k in O(n) time  and O(1) space" />
     <MESSAGE value="cake theif ,exponential time" />
     <MESSAGE value="Flatten a tree in inorder fashion (uses O(n) space)" />
@@ -840,7 +838,8 @@
     <MESSAGE value="Rotate LinkedList" />
     <MESSAGE value="Reversed m to n nodes in a linked list. Handles all the edge cases well. O(n)" />
     <MESSAGE value="next permutation, elegant way !" />
-    <option name="LAST_COMMIT_MESSAGE" value="next permutation, elegant way !" />
+    <MESSAGE value="letter phone problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="letter phone problem" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -867,7 +866,7 @@
           <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="39" />
+      <option name="time" value="40" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1214,18 +1213,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/subset_sum.py">
+    <entry file="file://$PROJECT_DIR$/letter_phone.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="162">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/letter_phone.py">
+    <entry file="file://$PROJECT_DIR$/subset_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        <state relative-caret-position="90">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding />
         </state>
       </provider>
