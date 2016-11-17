@@ -1,25 +1,25 @@
+def next_perm(number):
+	i = len(number) - 1
+	while i >= 1:
+		if number[i - 1] < number[i]:
+			next_greater_number_index = get_next_greater_number(number, i - 1)
+
+			number[i - 1], number[next_greater_number_index] = number[next_greater_number_index], number[i - 1]
+
+			right_sub_array = sorted(number[i:])
+			return number[:i] + right_sub_array
+		i -= 1
+
+	return sorted(number)
 
 
-def next_perm(num):
-	if len()
-	i = len(num) -1
+def get_next_greater_number(number, index):
+	next_greater_num_index = float('inf')
 
-	while i >= 0:
-		if num[i-1] < num[i]:
+	for i in range(index + 1, len(number)):
+		if number[i] > number[index] and number[i] < next_greater_num_index:
+			next_greater_num_index = i
+	return next_greater_num_index
 
-			break_num = num[i-1]
-			#Find no just greater than this break_num
-			lowest_index = None
-			for j in range(i, len(num)):
-				if num[j] > break_num:
-					just_greaterthan_break_index = j
-					if lowest_index == None or num[lowest_index] > num[just_greaterthan_break_index]:
-						lowest_index = j
-			#Swap break_num and just_greaterthan_break
-			num[i-1], num[lowest_index] = num[lowest_index], num[i-1]
 
-			#Sort nums from [i - len(num-1)]
-			return num[:i] + sorted(num[i:])
-		i -=1
-
-print (next_perm([1,2]))
+print next_perm([3, 1, 2])
