@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="we can also serialize using irorder-preorder of a tree.&#10;Easy to serialize but difficult to deserialize">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple_serialize_tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fib_gen.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="intv.iws" />
@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="simple_serialize_tree.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simple_serialize_tree.py">
+      <file leaf-file-name="fib_gen.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fib_gen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="789">
-              <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+            <state relative-caret-position="252">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -54,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my_lru.py" />
         <option value="$PROJECT_DIR$/generator.py" />
         <option value="$PROJECT_DIR$/delete_n_after_m_nodes.py" />
         <option value="$PROJECT_DIR$/instance_variable_python.py" />
@@ -105,6 +104,7 @@
         <option value="$PROJECT_DIR$/letter_phone.py" />
         <option value="$PROJECT_DIR$/subset_sum.py" />
         <option value="$PROJECT_DIR$/simple_serialize_tree.py" />
+        <option value="$PROJECT_DIR$/fib_gen.py" />
       </list>
     </option>
   </component>
@@ -168,24 +168,7 @@
     <property name="SearchEverywhereHistoryKey" value="heap&#9;null&#9;null&#10;bal&#9;FILE&#9;file:///Users/yask/Documents/intv/balanced_or_not.py" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Python.simple_serialize_tree">
-    <configuration default="false" name="reverse_linkedlist_m_n" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="intv" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reverse_linkedlist_m_n.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.fib_gen">
     <configuration default="false" name="next_perm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -250,6 +233,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="intv" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simple_serialize_tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="fib_gen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="intv" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fib_gen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -389,19 +389,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.reverse_linkedlist_m_n" />
-      <item index="1" class="java.lang.String" itemvalue="Python.next_perm" />
-      <item index="2" class="java.lang.String" itemvalue="Python.letter_phone" />
-      <item index="3" class="java.lang.String" itemvalue="Python.subset_sum" />
-      <item index="4" class="java.lang.String" itemvalue="Python.simple_serialize_tree" />
+      <item index="0" class="java.lang.String" itemvalue="Python.next_perm" />
+      <item index="1" class="java.lang.String" itemvalue="Python.letter_phone" />
+      <item index="2" class="java.lang.String" itemvalue="Python.subset_sum" />
+      <item index="3" class="java.lang.String" itemvalue="Python.simple_serialize_tree" />
+      <item index="4" class="java.lang.String" itemvalue="Python.fib_gen" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.simple_serialize_tree" />
-        <item index="1" class="java.lang.String" itemvalue="Python.subset_sum" />
-        <item index="2" class="java.lang.String" itemvalue="Python.letter_phone" />
-        <item index="3" class="java.lang.String" itemvalue="Python.next_perm" />
-        <item index="4" class="java.lang.String" itemvalue="Python.reverse_linkedlist_m_n" />
+        <item index="0" class="java.lang.String" itemvalue="Python.fib_gen" />
+        <item index="1" class="java.lang.String" itemvalue="Python.simple_serialize_tree" />
+        <item index="2" class="java.lang.String" itemvalue="Python.subset_sum" />
+        <item index="3" class="java.lang.String" itemvalue="Python.letter_phone" />
+        <item index="4" class="java.lang.String" itemvalue="Python.next_perm" />
       </list>
     </recent_temporary>
   </component>
@@ -418,13 +418,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472503872448</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Successor and Predicessor of a key in BST.">
-      <created>1477808518684</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1477808518684</updated>
     </task>
     <task id="LOCAL-00014" summary="Searches for word in the maze in O(n) time logN space complexity">
       <created>1477841917279</created>
@@ -762,7 +755,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479397328680</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="we can also serialize using irorder-preorder of a tree.&#10;Easy to serialize but difficult to deserialize">
+      <created>1479461409611</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1479461409612</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -775,7 +775,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27976766" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27976766" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.49791667" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -861,20 +861,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/My_Trie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rod_cutting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1214,8 +1200,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simple_serialize_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+        <state relative-caret-position="69">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_in_rotated_array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fib_gen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
           <folding />
         </state>
       </provider>
