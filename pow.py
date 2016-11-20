@@ -1,6 +1,5 @@
 
 def pow(a,n):
-	print (a,n)
 	if n <0:
 		return None
 	elif n  == 1:
