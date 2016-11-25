@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="comeback">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sudoku_solver.py" />
+    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="sudoku solver withou is_valid()">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/min_subarray_sum.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shortest_palin.py" afterPath="$PROJECT_DIR$/shortest_palin.py" />
     </list>
     <ignored path="intv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sudoku_solver.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sudoku_solver.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sudoku_solver.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="min_subarray_sum.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/min_subarray_sum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -55,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/stack_using_queues.py" />
         <option value="$PROJECT_DIR$/test.csv" />
         <option value="$PROJECT_DIR$/csv_parser.py" />
         <option value="$PROJECT_DIR$/largest_stack.py" />
@@ -106,6 +114,7 @@
         <option value="$PROJECT_DIR$/tree_sum.py" />
         <option value="$PROJECT_DIR$/shortest_palin.py" />
         <option value="$PROJECT_DIR$/sudoku_solver.py" />
+        <option value="$PROJECT_DIR$/min_subarray_sum.py" />
       </list>
     </option>
   </component>
@@ -169,7 +178,7 @@
     <property name="SearchEverywhereHistoryKey" value="heap&#9;null&#9;null&#10;bal&#9;FILE&#9;file:///Users/yask/Documents/intv/balanced_or_not.py" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Python.shortest_palin">
+  <component name="RunManager" selected="Python.min_subarray_sum">
     <configuration default="false" name="asdha" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,23 +192,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="intv" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asdha.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="jklj" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="intv" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jklj.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -251,6 +243,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="intv" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shortest_palin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="min_subarray_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="intv" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/min_subarray_sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -391,18 +400,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.asdha" />
-      <item index="1" class="java.lang.String" itemvalue="Python.jklj" />
-      <item index="2" class="java.lang.String" itemvalue="Python.kth_smallest_number" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tree_sum" />
-      <item index="4" class="java.lang.String" itemvalue="Python.shortest_palin" />
+      <item index="1" class="java.lang.String" itemvalue="Python.kth_smallest_number" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tree_sum" />
+      <item index="3" class="java.lang.String" itemvalue="Python.shortest_palin" />
+      <item index="4" class="java.lang.String" itemvalue="Python.min_subarray_sum" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.shortest_palin" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tree_sum" />
-        <item index="2" class="java.lang.String" itemvalue="Python.kth_smallest_number" />
-        <item index="3" class="java.lang.String" itemvalue="Python.asdha" />
-        <item index="4" class="java.lang.String" itemvalue="Python.jklj" />
+        <item index="0" class="java.lang.String" itemvalue="Python.min_subarray_sum" />
+        <item index="1" class="java.lang.String" itemvalue="Python.shortest_palin" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tree_sum" />
+        <item index="3" class="java.lang.String" itemvalue="Python.kth_smallest_number" />
+        <item index="4" class="java.lang.String" itemvalue="Python.asdha" />
       </list>
     </recent_temporary>
   </component>
@@ -419,13 +428,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472503872448</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Reverse LL in O(n)  and O(1) space using recursion">
-      <created>1477943743405</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1477943743405</updated>
     </task>
     <task id="LOCAL-00019" summary="Topological sort with O(n) time and O(n) space :)">
       <created>1477996570962</created>
@@ -763,7 +765,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480089155379</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="sudoku solver withou is_valid()">
+      <created>1480089653810</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1480089653810</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -779,7 +788,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.49791667" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42475247" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36138615" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -805,7 +814,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Insetion sort in O(n^2) time and O(1) space" />
     <MESSAGE value="Merge sort, uses O(nlogn) time and O(n) space.&#10;can be optimized to use O(1) space if merging is done backwards and one of the array contains enough space to accomodate the total merged array" />
     <MESSAGE value="Merge sorted arrays" />
     <MESSAGE value="heapsort" />
@@ -830,7 +838,8 @@
     <MESSAGE value="kth smallest number in O(n) using BST" />
     <MESSAGE value="returns -1 if not a sum tree" />
     <MESSAGE value="comeback" />
-    <option name="LAST_COMMIT_MESSAGE" value="comeback" />
+    <MESSAGE value="sudoku solver withou is_valid()" />
+    <option name="LAST_COMMIT_MESSAGE" value="sudoku solver withou is_valid()" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -856,22 +865,20 @@
           <line>12</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/min_subarray_sum.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="44" />
+      <option name="time" value="45" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DFS_new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/decrypt_string.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1199,6 +1206,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/min_subarray_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
