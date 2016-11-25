@@ -9,8 +9,8 @@ def shortestPalindrome(s):
     :rtype: str
     """
     index = 0
-    while not_palin(s):
-        s = s[:index] + s[len(s) - index - 1] + s[index:]
+    while not_palin(s):  # O(n)
+        s = s[:index] + s[len(s) - index - 1] + s[index:]  # O(n)
         index += 1
     return s
 

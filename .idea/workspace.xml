@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="returns -1 if not a sum tree">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shortest_palin.py" />
+    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="comeback">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sudoku_solver.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shortest_palin.py" afterPath="$PROJECT_DIR$/shortest_palin.py" />
     </list>
     <ignored path="intv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="shortest_palin.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shortest_palin.py">
+      <file leaf-file-name="sudoku_solver.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sudoku_solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+            <state relative-caret-position="198">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -54,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/flatten_nested_list.py" />
         <option value="$PROJECT_DIR$/stack_using_queues.py" />
         <option value="$PROJECT_DIR$/test.csv" />
         <option value="$PROJECT_DIR$/csv_parser.py" />
@@ -105,6 +105,7 @@
         <option value="$PROJECT_DIR$/pow.py" />
         <option value="$PROJECT_DIR$/tree_sum.py" />
         <option value="$PROJECT_DIR$/shortest_palin.py" />
+        <option value="$PROJECT_DIR$/sudoku_solver.py" />
       </list>
     </option>
   </component>
@@ -418,13 +419,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472503872448</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Added delete operation support for BST (in avg case time should be O(log n)&#10;">
-      <created>1477925604523</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1477925604523</updated>
     </task>
     <task id="LOCAL-00018" summary="Reverse LL in O(n)  and O(1) space using recursion">
       <created>1477943743405</created>
@@ -762,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479632793122</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="comeback">
+      <created>1480089155378</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1480089155379</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -804,7 +805,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Bubble sort in O(n^2) time and O(1) space" />
     <MESSAGE value="Insetion sort in O(n^2) time and O(1) space" />
     <MESSAGE value="Merge sort, uses O(nlogn) time and O(n) space.&#10;can be optimized to use O(1) space if merging is done backwards and one of the array contains enough space to accomodate the total merged array" />
     <MESSAGE value="Merge sorted arrays" />
@@ -829,7 +829,8 @@
     <MESSAGE value="fib series using generators" />
     <MESSAGE value="kth smallest number in O(n) using BST" />
     <MESSAGE value="returns -1 if not a sum tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="returns -1 if not a sum tree" />
+    <MESSAGE value="comeback" />
+    <option name="LAST_COMMIT_MESSAGE" value="comeback" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -864,20 +865,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flatten_binary_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DFS_new.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
@@ -1194,8 +1181,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shortest_palin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        <state relative-caret-position="216">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solve_sudoku.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudoku_solver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding />
         </state>
       </provider>
