@@ -18,6 +18,7 @@ def greater_than_k(arr, k):
 			j = mid - 1
 		else:
 			i = mid + 1
+	return -1
 
 
-print greater_than_k(arr, 9)
+print greater_than_k(arr, 90)
