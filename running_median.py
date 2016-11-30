@@ -6,7 +6,7 @@ def running_median(arr):
 	max_heap = []
 
 	for i in range(len(arr)):
-		if len(min_heap) == 0 or arr[i] < max_heap[0] * -1:
+		if len(max_heap) == 0 or arr[i] < max_heap[0] * -1:
 			heapq.heappush(max_heap, -1 * arr[i])
 		else:
 			heapq.heappush(min_heap, arr[i])
