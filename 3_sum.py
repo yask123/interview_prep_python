@@ -9,3 +9,8 @@ A solution set is:
 '''
 
 
+def three_sum(arr):
+	result = []
+	for i in range(arr):
+		result.append(two_sum(arr, i) + [i])
+	return result
