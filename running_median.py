@@ -1,6 +1,9 @@
 import heapq
 
 
+# Left half is max heap, right half in min heap
+# To use min heap as max heap we insert -1 * item and pop as -1 * item
+
 def running_median(arr):
 	min_heap = []
 	max_heap = []
