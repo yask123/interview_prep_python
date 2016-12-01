@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="sum path from leaf to root">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_k_freqent_numbers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wild_card_matching.py" />
+    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="perfect algorithms">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/k_greatest_numbers.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="intv.iws" />
@@ -24,21 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="top_k_freqent_numbers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/top_k_freqent_numbers.py">
+      <file leaf-file-name="k_greatest_numbers.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/k_greatest_numbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wild_card_matching.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wild_card_matching.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+            <state relative-caret-position="150">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -65,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/longest_subarray_with_atmost_sum_k.py" />
         <option value="$PROJECT_DIR$/cake_theif.py" />
         <option value="$PROJECT_DIR$/flatten_binary_tree.py" />
         <option value="$PROJECT_DIR$/un_nest_nested_list.py" />
@@ -116,6 +104,7 @@
         <option value="$PROJECT_DIR$/circluar_queue.py" />
         <option value="$PROJECT_DIR$/top_k_freqent_numbers.py" />
         <option value="$PROJECT_DIR$/wild_card_matching.py" />
+        <option value="$PROJECT_DIR$/k_greatest_numbers.py" />
       </list>
     </option>
   </component>
@@ -179,24 +168,7 @@
     <property name="SearchEverywhereHistoryKey" value="heap&#9;null&#9;null&#10;bal&#9;FILE&#9;file:///Users/yask/Documents/intv/balanced_or_not.py" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Python.wild_card_matching">
-    <configuration default="false" name="running_median" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="intv" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/running_median.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.k_greatest_numbers">
     <configuration default="false" name="root_leaf_tree_path" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,6 +233,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="intv" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wild_card_matching.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="k_greatest_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="intv" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/k_greatest_numbers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -400,19 +389,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.running_median" />
-      <item index="1" class="java.lang.String" itemvalue="Python.root_leaf_tree_path" />
-      <item index="2" class="java.lang.String" itemvalue="Python.circluar_queue" />
-      <item index="3" class="java.lang.String" itemvalue="Python.top_k_freqent_numbers" />
-      <item index="4" class="java.lang.String" itemvalue="Python.wild_card_matching" />
+      <item index="0" class="java.lang.String" itemvalue="Python.root_leaf_tree_path" />
+      <item index="1" class="java.lang.String" itemvalue="Python.circluar_queue" />
+      <item index="2" class="java.lang.String" itemvalue="Python.top_k_freqent_numbers" />
+      <item index="3" class="java.lang.String" itemvalue="Python.wild_card_matching" />
+      <item index="4" class="java.lang.String" itemvalue="Python.k_greatest_numbers" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.wild_card_matching" />
-        <item index="1" class="java.lang.String" itemvalue="Python.top_k_freqent_numbers" />
-        <item index="2" class="java.lang.String" itemvalue="Python.circluar_queue" />
-        <item index="3" class="java.lang.String" itemvalue="Python.root_leaf_tree_path" />
-        <item index="4" class="java.lang.String" itemvalue="Python.running_median" />
+        <item index="0" class="java.lang.String" itemvalue="Python.k_greatest_numbers" />
+        <item index="1" class="java.lang.String" itemvalue="Python.wild_card_matching" />
+        <item index="2" class="java.lang.String" itemvalue="Python.top_k_freqent_numbers" />
+        <item index="3" class="java.lang.String" itemvalue="Python.circluar_queue" />
+        <item index="4" class="java.lang.String" itemvalue="Python.root_leaf_tree_path" />
       </list>
     </recent_temporary>
   </component>
@@ -429,13 +418,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472503872448</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Infix to postfix (without brackets) in O(n) time and O(n) space">
-      <created>1478358312524</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1478358312524</updated>
     </task>
     <task id="LOCAL-00030" summary="Infix to postfix (supports  brackets) in O(n) time and O(n) space">
       <created>1478360434830</created>
@@ -773,7 +755,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480581220832</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="perfect algorithms">
+      <created>1480588732545</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1480588732549</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -815,7 +804,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="O(1) to clear ith bit in any number" />
     <MESSAGE value="Queue implemented via circular array" />
     <MESSAGE value="get code" />
     <MESSAGE value="O(n^2) for insertion sort" />
@@ -840,7 +828,8 @@
     <MESSAGE value="Reversed inorder - &gt; descending order" />
     <MESSAGE value="Running median in n log(n) time" />
     <MESSAGE value="sum path from leaf to root" />
-    <option name="LAST_COMMIT_MESSAGE" value="sum path from leaf to root" />
+    <MESSAGE value="perfect algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="perfect algorithms" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -892,13 +881,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/reverse_linkedlist_m_n.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/max_depth_of_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1215,18 +1197,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/top_k_freqent_numbers.py">
+    <entry file="file://$PROJECT_DIR$/wild_card_matching.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state relative-caret-position="465">
+          <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wild_card_matching.py">
+    <entry file="file://$PROJECT_DIR$/top_k_freqent_numbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        <state relative-caret-position="360">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k_greatest_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding />
         </state>
       </provider>
