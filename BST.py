@@ -16,50 +16,51 @@ class BST:
 		else:
 			self._insert_helper(self.root, key, val)
 
-	def _insert_helper(self, current_node, key, val):
-		if key > current_node.key:
-			if current_node.right == None:
-				current_node.right = Node(key, val)
+    def _insert_helper(self, root, key, val):
+
+        if key > root.val:
+            if root.right:
+                self._insert_helper(root.right, key, val)
 			else:
-				self._insert_helper(current_node.right, key, val)
+                root.right = Node(key, val)
 		else:
-			if current_node.left == None:
-				current_node.left = Node(key, val)
+            if root.left:
+                self._insert_helper(root.left, key, val)
 			else:
-				self._insert_helper(current_node.left, key, val)
+                root.left = Node(key, val)
+
+
 
 	def delete(self, key):
 		self._delete(key, self.root)
 
-	def _delete(self, key, root):
-		if root == None:
-			return
+    def _delete(self, root, key):
+        if key == root.val:
 
-		if key > root.val:
-			root.right = self._delete(key, root.right)
-
-		elif key < root.val:
-			root.left = self._delete(key, root.left)
-		else:
 			if root.left == None:
-				right_child = root.right
+                temp = root.right
 				root = None
-				return right_child
-			elif root.right == None:
-				left_child = root.left
-				root = None
-				return left_child
-			else:
-				inorder_successor = self.get_min_value(root.right)
-				root.val = inorder_successor.val
-				self.right = self._delete(inorder_successor)
+                return temp
 
+            if root.right == None:
+                temp = root.left
+				root = None
+                return temp
+
+            inord_successor = self.get_min(root.right)
+            root.val = inord_successor.val
+            root.key = inord_successor.key
+            self._delete(root, inord_successor.key)
+
+        elif key > root.val:
+            root.right = self._delete(root.right, key)
+        else:
+            root.left = self._delete(root.left, key)
+
+    def get_min(self, root, key):
+        while root.left:
+            root = root.left
 		return root
-
-
-
-
-
 
 
 	def print_tree(self):

@@ -12,9 +12,9 @@ def shortest_distance(start, end, dictionary):
     deque.append((start, dist))
     visited = set([start])
 
-    while len(deque):
-        popped_word, current_dist = deque.popleft()
-        neighbours = get_neighbours(popped_word)
+    while len(queue):
+        popped_word, current_dist = queue.popleft()
+        neighbours = get_neighbours(popped_word, dictionary)
 
         for each_neighbour in neighbours:
             if each_neighbour == end:
@@ -22,7 +22,7 @@ def shortest_distance(start, end, dictionary):
 
             if each_neighbour not in visited:
                 visited.add(each_neighbour)
-                deque.append((each_neighbour, dist + 1))
+                queue.append((each_neighbour, dist + 1))
 
 
 def get_neighbours(word, arr):
