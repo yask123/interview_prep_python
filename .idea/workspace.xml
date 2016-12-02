@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="leetcode questions">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boggle.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pass_list_by_value.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/subset_sum_to_k.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/intv.iml" afterPath="$PROJECT_DIR$/.idea/intv.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="6d74db2f-556b-46f5-ae7a-b35d55d4a5db" name="Default" comment="boggle sort stuff">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cake_theif.py" afterPath="$PROJECT_DIR$/cake_theif.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/special_node_BinaryTree.py" afterPath="$PROJECT_DIR$/special_node_BinaryTree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stack_of_plates.py" afterPath="$PROJECT_DIR$/stack_of_plates.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wild_card_matching.py" afterPath="$PROJECT_DIR$/wild_card_matching.py" />
     </list>
     <ignored path="intv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/subset_sum_to_k.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+              <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -44,8 +35,8 @@
       <file leaf-file-name="boggle.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/boggle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -424,13 +415,6 @@
       <option name="presentableId" value="Default" />
       <updated>1472503872448</updated>
     </task>
-    <task id="LOCAL-00033" summary="Longest substring with atmost sum = k in O(n) time  and O(1) space">
-      <created>1478372759554</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1478372759554</updated>
-    </task>
     <task id="LOCAL-00034" summary="cake theif ,exponential time">
       <created>1478425577274</created>
       <option name="number" value="00034" />
@@ -767,7 +751,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480671806417</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="boggle sort stuff">
+      <created>1480700586116</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1480700586118</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -847,7 +838,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="O(n^2) for insertion sort" />
     <MESSAGE value="stack sorting" />
     <MESSAGE value="O(n) time ans (n) space" />
     <MESSAGE value="O(nlogn) even though this could be solved in O(n)" />
@@ -872,7 +862,8 @@
     <MESSAGE value="perfect algorithms" />
     <MESSAGE value="k greatest numbers!" />
     <MESSAGE value="leetcode questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode questions" />
+    <MESSAGE value="boggle sort stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="boggle sort stuff" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1295,15 +1286,15 @@
     <entry file="file://$PROJECT_DIR$/subset_sum_to_k.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boggle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
           <folding />
         </state>
       </provider>
