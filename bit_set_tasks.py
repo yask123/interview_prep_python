@@ -22,3 +22,15 @@ def clear_bit(n, i):
 	'''
 	mask = ~(1 << i)
 	return n & mask
+
+
+def convert_base(number, base):
+	result = []
+	while number > 0:
+		result.append(number % base)
+		number = number / base
+	result.reverse()
+	return result
+
+
+print convert_base(123, 16)

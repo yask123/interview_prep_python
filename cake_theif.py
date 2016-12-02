@@ -18,7 +18,7 @@ def max_profit(cakes, current_index, target_weight):
 	if cakes[current_index][0] > target_weight:
 		return max_profit(cakes, current_index - 1, target_weight)
 
-	a = cakes[current_index][1] + (cakes, current_index, target_weight - cakes[current_index][0])
+    a = cakes[current_index][1] + max_profit(cakes, current_index, target_weight - cakes[current_index][0])
 	b = max_profit(cakes, current_index - 1, target_weight)
 
 	return max(a, b)

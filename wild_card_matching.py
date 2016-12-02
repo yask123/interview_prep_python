@@ -37,4 +37,4 @@ def wild_card(word, pattern, word_index, pattern_index):
 		return False
 
 
-print wild_card('abb', '?*', 0, 0)
+print wild_card('aaaab', '*?', 0, 0)

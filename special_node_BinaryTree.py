@@ -56,4 +56,4 @@ def node_with_largest_data(root):
 	largest_data_left = node_with_largest_data(root.left)
 	largest_data_right = node_with_largest_data(root.right)
 
-	return max(max(largest_data_left, largest_data_right), root.val)
+    return max(largest_data_left, largest_data_right, root.val)

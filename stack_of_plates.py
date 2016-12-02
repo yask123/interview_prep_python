@@ -44,4 +44,3 @@ a.push(12)
 
 
 a.print_stack()
-4
