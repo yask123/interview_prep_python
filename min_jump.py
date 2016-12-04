@@ -28,7 +28,7 @@ def min_jumps(arr, pos):
 
     result = float('inf')
 
-    for each_jump_length in range(1, arr[pos] + 1):
+    for each_jump_length in range(arr[pos], 0, -1):
         result = min(result, 1 + min_jumps(arr, pos + each_jump_length))
 
     cache[pos] = result
