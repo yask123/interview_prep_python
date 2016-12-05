@@ -9,12 +9,14 @@ class Node:
 		7
 	2		 1
 0      1 	     3
+
+					9
 '''
 
 a = Node(7)
 a.right = Node(1)
 a.right.right = Node(3)
-
+a.right.right.right = Node(9)
 a.left = Node(2)
 a.left.left = Node(0)
 a.left.right = Node(1)

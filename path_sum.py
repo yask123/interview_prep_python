@@ -22,7 +22,7 @@ Return 0 / 1 ( 0 for false, 1 for true ) for this problem
 def dfs(root, target):
 	if root == None:
 		return 0
-	if target == 0:
+    if target - root.val == 0 and root.left == None and root.right == None:
 		return 1
 
 	x = dfs(root.left, target - root.val)

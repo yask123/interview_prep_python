@@ -1,42 +1,27 @@
-# Definition for a  binary tree node
-class TreeNode:
-    def __init__(self, x):
-        self.val = x
-        self.left = None
-        self.right = None
+'''
+
+Given a binary tree, find its maximum depth.
+
+The maximum depth of a binary tree is the number of nodes along the longest path from the root node down to the farthest leaf node.
+
+ NOTE : The path has to end on a leaf node.
+Example :
+
+         1
+        /
+       2
+max depth = 2.
+
+'''
 
 
-class Solution:
-    # @param A : root node of tree
-    # @param B : integer
-    # @return the root node in the tree
-    def getSuccessor(self, A, B):
-        current = A
-        successor = None
-        while True:
-            if current.val == B:
-                if current.right:
-                    return self.get_min(A.right)
-                else:
-                    return successor
-            elif current.val < B:
-                current = current.right
-            else:
-                successor = current
-                current = current.left
+def max_depth(root):
+    if root == None:
+        return 0
 
-    def get_min(self, A):
-        while A.left:
-            A = A.left
-        return A
+    return 1 + max(max_depth(root.left), max_depth(root.right))
 
 
-a = TreeNode(2)
-b = TreeNode(1)
-c = TreeNode(3)
+import sample_tree
 
-a.right = c
-a.left = b
-
-ans = Solution()
-print ans.getSuccessor(a, 1).val
+print max_depth(sample_tree.a)
