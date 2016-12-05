@@ -31,7 +31,7 @@ def sub_concat_results(s, words):
             f_s = t_s
             temp_set = set(words)
         else:
-            f_s += 1
+            f_s = t_s + 1
 
     return results
 
