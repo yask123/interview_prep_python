@@ -13,29 +13,26 @@ Subscribe to see which companies asked this question
 '''
 
 
-def is_interleaved(s1, s2, s3):
-    a_index = 0
-    b_index = 0
-    c_index = 0
-
-    while c_index < len(s3):
-
-        if a_index < len(s1) and s1[a_index] == s3[c_index]:
-            a_index += 1
-
-        elif b_index < len(s2) and s2[b_index] == s3[c_index]:
-            b_index += 1
-
-        else:
-            return False
-        c_index += 1
-
-    return True
+def is_interleaved(s1, s2, s3, a_index, b_index, c_index):
+    if c_index == len(s3):
+        return True
+    elif a_index < len(s1) and b_index < len(s2) and s3[c_index] == s1[a_index] and s3[c_index] == s2[b_index]:
+        if is_interleaved(s1, s2, s3, a_index + 1, b_index, c_index + 1):
+            return True
+        if is_interleaved(s1, s2, s3, a_index, b_index + 1, c_index + 1):
+            return True
+        return False
+    elif a_index < len(s1) and s3[c_index] == s1[a_index]:
+        return is_interleaved(s1, s2, s3, a_index + 1, b_index, c_index + 1)
+    elif b_index < len(s2) and s3[c_index] == s2[b_index]:
+        return is_interleaved(s1, s2, s3, a_index, b_index + 1, c_index + 1)
+    else:
+        return False
 
 
-s1 = "a a b c c "
-s2 = "d b b ca"
+s1 = "aabcc "
+s2 = "dbbca"
 
-s3 = "a a d b b c b c ac"
+s3 = "aadbbbaccc"
 
-print is_interleaved(s1, s2, s3)
+print is_interleaved(s1, s2, s3, 0, 0, 0)
