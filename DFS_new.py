@@ -1,5 +1,3 @@
-
-from collections import deque
 class Node:
     def __init__(self, value, neighbours = []):
         self.neighbours = neighbours
@@ -47,3 +45,4 @@ b.neighbours = [d]
 
 my_graph = Graph([a,b,c,d])
 my_graph.dfs_search(a)
+
