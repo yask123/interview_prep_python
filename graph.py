@@ -21,7 +21,7 @@ class Graph:
 
     def dfs(self, source_id):
         source = self.nodes[source_id]
-        return self._dfs
+        return self._dfs(source)
 
     def _dfs(self, node):
 
