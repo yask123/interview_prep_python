@@ -5,22 +5,27 @@ for valid entry, you can have ( only if open count is less than n
 and ) if opening count is more than closing count.
 '''
 
+n = 10
 
-def generate(n, pos, open, close, result):
-	if close == n:
-		print result
+arr = [0] * n
+
+
+def generate(arr, pos, open, close):
+    if close == n / 2:
+        print arr
 		return
-	else:
-		if open < n:
-			b = result[:]
-			b[pos] = '('
-			generate(n, pos + 1, open + 1, close, b)
 
-		if open > close:
-			b = result[:]
+    if pos >= n:
+        return
 
-			b[pos] = ')'
-			generate(n, pos + 1, open, close + 1, b)
+    if open < n / 2:
+        arr = arr[:]
+        arr[pos] = '('
+        generate(arr, pos + 1, open + 1, close)
+    if open > close:
+        arr = arr[:]
+        arr[pos] = ')'
+        generate(arr, pos + 1, open, close + 1)
 
 
-generate(4, 0, 0, 0, [0] * 8)
+generate(arr, 0, 0, 0)
