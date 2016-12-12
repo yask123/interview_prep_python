@@ -8,10 +8,7 @@ def just_greater(arr, k):
 
         mid = (start + end) / 2
         if arr[mid] == k:
-            if mid < len(arr) - 1:
-                return mid + 1
-            else:
-                return - 1
+            return mid
 
         elif arr[mid] > k:
             result = mid
@@ -32,10 +29,7 @@ def just_lower(arr, k):
         mid = (start + end) / 2
 
         if arr[mid] == k:
-            if mid > 0:
-                return mid - 1
-            else:
-                return - 1
+            return mid
         elif arr[mid] > k:
             end = mid - 1
         else:
@@ -47,6 +41,6 @@ def just_lower(arr, k):
 
 arr = [1, 4, 10, 15, 20]
 
-print just_greater(arr, 20)
+print just_greater(arr, 3)
 
-print just_lower(arr, 10)
+print just_lower(arr, 30)
